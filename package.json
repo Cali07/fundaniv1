@@ -1,0 +1,33 @@
+{
+  "name": "quested-ed",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/ui": "^2.11.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@supabase/supabase-js": "^2.38.5",
+    "@vite-pwa/nuxt": "^0.4.0",
+    "axios": "^1.6.2",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.1.7",
+    "sass-loader": "^16.0.5",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.8.11"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.8",
+    "@types/node": "^20.10.4",
+    "sass": "^1.89.2",
+    "typescript": "^5.3.3",
+    "vite-plugin-vuetify": "^2.1.1"
+  }
+}
